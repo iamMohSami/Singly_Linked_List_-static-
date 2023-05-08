@@ -14,7 +14,7 @@ void llinsert_atindex(struct Node *head);
 void lldelete_first(struct Node *head);            
 void lldelete_last(struct Node *head);
 void lldelete_atindex(struct Node *head);
-struct Node * reverseList(struct Node * head) ;
+void reverseList(struct Node * head) ;
 
 int main()
 {
@@ -181,7 +181,7 @@ void lldelete_atindex(struct Node *head)
     lltrav(head);
 }
 
-struct Node * reverseList(struct Node * head) {
+void reverseList(struct Node * head) {
         struct Node  * prev = NULL, *cur=head, *next = NULL;
         while(cur!=NULL){
             next= cur->next;
