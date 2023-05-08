@@ -11,7 +11,7 @@ void lltrav(struct Node *ptr);
 void llinsert_atbegin(struct Node *head);
 void llinsert_atend(struct Node *head);
 void llinsert_atindex(struct Node *head);
-void lldelete_first(struct Node *head);             // ADD LINKED LIST REVERSAL ALSO
+void lldelete_first(struct Node *head);            
 void lldelete_last(struct Node *head);
 void lldelete_atindex(struct Node *head);
 struct Node * reverseList(struct Node * head) ;
